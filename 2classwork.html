@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Document</title>
+  <style>
+    /* Child Selector - > */
+    /* Syntax: selector1 > selector2 > selector3 > ..... */
+    div > p{
+      font-size: 40px;
+    }
+
+    .class1 > p{
+      color: green;
+    }
+
+    /* General Sibling  - "~" */
+    div ~ p{
+      /* select all p which are general sibling of div */
+      background-color: pink;
+    }
+
+    /* Adjacent Sibling - "+" */
+    div + p{
+      background-color: red;
+    }
+
+
+
+
+  </style>
+</head>
+<body>
+
+  <div class="class1">
+    <p>I am para p1</p>
+    <p>I am para p1</p>
+    <div>
+      <p>I am para p2</p>
+    </div>
+
+    <p>I am para p1</p>
+    <p>I am para p1</p>
+  
+  </div>
+  
+</body>
+</html>
