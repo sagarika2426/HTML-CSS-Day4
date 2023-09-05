@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Flex Card</title>
+  <style>
+    .mainbox{
+      height: 370px;
+      width: 80%;
+      /* border: 1px solid black; */
+      margin: auto;
+      display: flex;
+    
+    }
+
+    .mainbox >div{
+      height: 90%;
+      width: 30%;
+      /* border: 1px solid black; */
+      margin: auto;
+      box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+      border-radius: 5px;
+    }
+
+    img{
+      height: 190px;
+      width: 100%;
+    }
+    .mainbox> div> .content > div> p{
+      color: gray;
+      font-size: 18px;
+      margin: auto;
+      /* border: 1px solid green;
+      margin-bottom: 20px;
+      padding-top: 10px; */
+    }
+    
+    
+    
+    .mainbox> div> .content > div>h2{
+      font-size: 22px;
+      height: 70px;
+    }
+
+
+    .mainbox> div> .content{
+      margin-left: 10px;
+      width: 95%;
+     
+      
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="mainbox">
+    <div>
+      <div>
+        <img src="https://media.wired.com/photos/64f149faa45d365f6340e681/16:9/w_640,c_limit/Airbnb-Restrictions-NYC-Business-1242131531.jpg">
+      </div>
+      <div class="content">
+
+        <div><h2>The End of Airbnb in New York</h2></div>
+        <div><p>BUSSINESS</p></div>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <img src="https://media.wired.com/photos/64f0efed922370ac6de903c5/16:9/w_640,c_limit/IITs-Golden-Tech-Ticket-Dark-Side-Business-1593768989.jpg">
+      </div>
+      <div class="content">
+        <div><h2>Indias Elite Tech Schools Are a Golden Ticket With a Dark Side</h2></div>
+        <div><p>BUSSINESS</p></div>
+        
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <img src="https://media.wired.com/photos/64f1f40ae6fef7e0649f7fe1/16:9/w_640,c_limit/tinyhome-climatedesk-science-GettyImages-1241617350-(1).jpg">
+      </div>
+      <div class="content">
+        <div><h2>What Ever Happened to the Tiny House Movement?</h2></div>
+        <div><p>SCIENCE</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mainbox">
+    <div>
+      <div>
+        <img src="https://media.wired.com/photos/64f1255a6d9ef6802b127147/16:9/w_640,c_limit/Battle-Over-Book3-Culture-159132659.jpg">
+      </div>
+      <div class="content">
+        <div><h2>The Battle Over Books3 Could Change AI Forever</h2></div>
+        <div>
+          <p>CULTURE</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <img src="https://media.wired.com/photos/64f256cbf448350e82119af5/16:9/w_640,h_360,c_limit/wheat-field-science-GettyImages-184589603.jpg">
+      </div>
+      <div class="content">
+        <div><h2>A Billion-Dollar Plan to Fix Farm Emissions Might Make Things Worse
+        </h2></div>
+        <div><p>SCIENCE</p></div>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <img src="https://media.wired.com/photos/64ee4befc669b39431221338/16:9/w_640,h_360,c_limit/ideas_screentime_health.jpg">
+      </div>
+      <div class="content">
+        <div><h2>Tracking Screen Time Is Ruining Your Life</h2></div>
+        <div><p>IDEAS</p></div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
