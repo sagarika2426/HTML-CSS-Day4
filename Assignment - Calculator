@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Calculator</title>
+  <style>
+    #heading{
+      height: 100px;
+      width: 30%;
+      /* border: 1px solid black; */
+      margin: auto;
+    }
+
+    #heading>h1{
+      font-size: 50px;
+      text-align: center;
+      color: teal;
+    }
+
+    #mainbox{
+      height: 450px;
+      width: 26%;
+      border: 1px solid white;
+      margin: auto;
+      margin-top: 40px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    }
+
+    #mainbox> #firstbox {
+        height: 14%;
+        width: 80%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin: auto;
+        margin-top: 40px;
+        border-radius: 10px;
+        
+      }
+
+    #mainbox > #num-box{
+      height: 70%;
+      width: 80%;
+      /* border: 1px solid red; */
+      margin: auto;
+      margin-top: 20px;
+    }
+
+    #mainbox> #num-box >div{
+      height:22%;
+      width: 100%;
+      /* border: 1px solid black; */
+      margin: auto;
+      /* margin-top: 2px; */
+      display: flex;
+    }
+
+    #mainbox> #num-box > div>div{
+      height: 60px;
+      width: 60px;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+    }
+
+    #mainbox> #num-box>div>div>h2{
+      text-align: center;
+      font-size: 21px
+    }
+    .black-box{
+      background-color: black;
+      color: white;
+    }
+    div> .red{
+      background-color: red;
+      color: white;
+    }
+
+    
+  </style>
+
+</head>
+<body>
+  <!-- heading -->
+<div id="heading">
+  <h1>Calculator</h1>
+</div>
+
+<!-- main box -->
+<div id="mainbox">
+  <!-- first row -->
+  <div id="firstbox">
+    <div></div>
+  </div>
+
+
+  <!-- 2nd row -->
+  <div id="num-box">
+    <div>
+      <div><h2>1</h2></div>
+      <div><h2>2</h2></div>
+      <div><h2>3</h2></div>
+      <div class="black-box"><h2>+</h2></div>
+    </div>
+    <div>
+      <div><h2>4</h2></div>
+      <div><h2>5</h2></div>
+      <div><h2>6</h2></div>
+      <div class="black-box"><h2>-</h2></div>
+    </div>
+    <div>
+      <div><h2>7</h2></div>
+      <div><h2>8</h2></div>
+      <div><h2>9</h2></div>
+      <div class="black-box"><h2>x</h2></div>
+    </div>
+    <div>
+      <div class="red"><h2>C</h2></div>
+      <div><h2>0</h2></div>
+      <div class="black-box"><h2>=</h2></div>
+      <div class="black-box"><h2>/</h2></div>
+    </div>
+  </div>
+
+</div>
+  
+</body>
+</html>
